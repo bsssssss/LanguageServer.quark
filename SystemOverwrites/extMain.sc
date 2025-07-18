@@ -42,6 +42,7 @@
         ("\n\n*** Welcome to SuperCollider %. ***".format(Main.version)
             + (Platform.ideName.switch(
                 "scvim", {"For help type :SChelp."},
+                "scnvim", {"For help type :SChelp."},
                 "scel",  {"For help type C-c C-y."},
                 "sced",  {"For help type ctrl-U."},
                 "scapp", {"For help type cmd-d."},
