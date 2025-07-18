@@ -12,3 +12,6 @@ profile = 'black'
 
 [tool.black]
 line-length = 110
+
+[tool.basedpyright]
+typeCheckingMode = "basic"
